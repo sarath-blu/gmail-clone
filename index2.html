@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div class="header-left">
+        <span class="material-icons">menu</span>
+        <img class="logo" src="./logo-3.png" />
+        <!-- <img src="https://i.pinimg.com/originals/ae/47/fa/ae47fa9a8fd263aa364018517020552d.png"> -->
+      </div>
+
+      <div class="header-middle">
+        <span class="material-icons">search</span>
+        <input type="text" placeholder="Search mail" />
+        <span class="material-icons">tune</span>
+      </div>
+
+      <div class="header-right">
+        <span class="material-icons">help_outline</span>
+        <span class="material-icons">settings</span>
+        <span class="material-icons">apps</span>
+        <span class="material-icons">account_circle</span>
+      </div>
+    </div>
+
+    <!-- Main body -->
+    <div class="main-body">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <button class="sidebar-compose" id="composeButton">
+          <span class="material-icons">add</span>
+          Compose
+        </button>
+
+        <div class="sidebarOption sidebarOption-active">
+          <span class="material-icons" id="inbox" style="font-size: 18px;">inbox</span>
+          <h4>Inbox</h4>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons" id="starred" style="font-size: 18px;">star</span>
+          <h4>Starred</h4>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons" id="sent" style="font-size: 18px;">send</span>
+          <h4>Sent</h4>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons" id="snozzed" style="font-size: 18px;">schedule</span>
+          <h4>Snoozed</h4>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons" id="drafts" style="font-size: 18px;">description</span>
+          <h4>Drafts</h4>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons" id="more" style="font-size: 18px;">arrow_drop_down</span>
+          <h4>More</h4>
+        </div>
+
+        <div class="sidebarFooter">
+          <div class="sidebarFooterIcons">
+            <span class="material-icons" style="font-size: 18px;">person</span>
+            <span class="material-icons" style="font-size: 18px;">chat</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Email list -->
+      <div class="emailList">
+        <!-- Setting -->
+        <div class="emailList-settings">
+          <div class="emailList-settingsLeft">
+            <input type="checkbox" />
+            <span class="material-icons">arrow_drop_down</span>
+            <span class="material-icons">refresh</span>
+            <span class="material-icons">more_vert</span>
+          </div>
+
+          <div class="emailList-settingsRight">
+            <span class="material-icons">chevron_left</span>
+            <span class="material-icons">chevron_right</span>
+            <span class="material-icons">keyboard_hide</span>
+          </div>
+        </div>
+
+        <!-- Section -->
+        <div class="emailList-sections">
+          <div class="section section-selected">
+            <span class="material-icons">inbox</span>
+            <h5>Primary</h5>
+          </div>
+
+          <div class="section">
+            <span class="material-icons">people</span>
+            <h5>Social</h5>
+          </div>
+
+          <div class="section">
+            <span class="material-icons">local_offer</span>
+            <h5>Promotions</h5>
+          </div>
+        </div>
+
+        <!-- Emails -->
+        <div class="email">
+
+          <!-- email row -->
+          <div class="emailRow">
+            <div class="emailRow-options">
+              <input type="checkbox">
+            <span class="material-icons" style="font-size: 16px;">star_border</span>
+            <!-- <span class="material-icons" style="font-size: 16px;">label_important</span> -->
+            </div>
+            <h3 class="emailRow-title">John</h3>
+            <div class="emailRow-message">
+              <h4>Hey Folks!!!<span class="emailRow-description"> - lets chat in hangouts</span></h4>
+            </div>
+            <p class="emailRow-time">09:39 PM</p>
+          </div>
+
+          <div class="emailRow">
+            <div class="emailRow-options">
+              <input type="checkbox">
+            <span class="material-icons" style="font-size: 16px;">star_border</span>
+            <!-- <span class="material-icons" style="font-size: 16px;">label_important</span> -->
+            </div>
+            <h3 class="emailRow-title">Mike</h3>
+            <div class="emailRow-message">
+              <h4>Hello Everyone<span class="emailRow-description"> - let's learn together</span></h4>
+            </div>
+            <p class="emailRow-time">09:17 PM</p>
+          </div>
+
+          <div class="emailRow">
+            <div class="emailRow-options">
+              <input type="checkbox">
+            <span class="material-icons" style="font-size: 16px;">star_border</span>
+            <!-- <span class="material-icons" style="font-size: 16px;">label_important</span> -->
+            </div>
+            <h3 class="emailRow-title">Steve</h3>
+            <div class="emailRow-message">
+              <h4>How are you<span class="emailRow-description"> - Hey man, hope you are doing good</span></h4>
+            </div>
+            <p class="emailRow-time">09:06 PM</p>
+          </div>   
+
+          <div class="emailRow">
+            <div class="emailRow-options">
+              <input type="checkbox">
+            <span class="material-icons" style="font-size: 16px;">star_border</span>
+            <!-- <span class="material-icons" style="font-size: 16px;">label_important</span> -->
+            </div>
+            <h3 class="emailRow-title">Google</h3>
+            <div class="emailRow-message">
+              <h4>Welcome to Gmail<span class="emailRow-description"> - all mails in one place</span></h4>
+            </div>
+            <p class="emailRow-time">08:28 PM</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="email-compose" id="mailOpen">
+      <div class="compose">
+          <div class="header">New Message</div>
+          <div class="header-icons">
+              <span class="material-icons">minimize</span>
+                  <span class="material-icons" style="font-size: 16px;">open_in_full</span>
+                  <span class="material-icons" id="mailClose" style="font-size: 16px;">close</span>
+          </div>
+      </div>
+      <div class="email-to">
+          <div class="to">
+              To
+          </div>
+          <div class="text">
+              <input type="text">
+          </div>
+          <div class="extra">
+              Cc
+          Bcc
+          </div>  
+      </div>
+      <div class="email-subject">   
+          <input class="subject" type="text" placeholder="Subject">
+          <textarea rows="25" cols="52" maxlength="800"></textarea>
+      </div>
+    
+      <div class="email-footer">
+          <div class="footer-left">
+              <button type="button" class="btn">Send</button>
+              <span class="material-icons" style="font-size: 18px;">format_color_text</span>
+              <span class="material-icons" style="font-size: 18px;">attach_file</span>
+              <span class="material-icons" style="font-size: 18px;">insert_link</span>
+              <span class="material-icons" style="font-size: 18px;">emoji_emotions</span>
+              <span class="material-icons" style="font-size: 18px;">add_to_drive</span>
+          </div>
+          <div class="footer-right">
+              <span class="material-icons" style="font-size: 18px;">more_vert</span>
+              <span class="material-icons" style="font-size: 18px;">delete</span>
+          </div>
+      </div>
+  
+  </div> 
+
+    <script src="./script.js"></script>
+  </body>
+</html>
